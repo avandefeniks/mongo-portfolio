@@ -11,7 +11,7 @@ type Contact {
 },
 
 type Query {
-    contacts: Contact
+    contacts: [Contact]
 },
 
 type Mutation {
